@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+#logo{
+    display: flex;
+    color: azure;
+    margin: 0 10px;
+    align-items: center;
+    margin-right: 34px;
+}  
+img{
+    height: 80px;
+    /* filter: grayscale(1); */
+
+}  
+#navber{
+    background-color:#009688;;
+}
+
+#navber ul{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    
+}
+#navber li{
+    list-style: none;
+    padding: 33px 53px;
+   
+}
+#navber li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: wheat;
+    
+    
+}
+
+#navber li a:hover{
+    color: rgb(223, 213, 213);
+    
+}
+#intro{
+    height: 456px;
+    background-color: aquamarine;
+    background: center/cover no-repeat url("/static/pg.jpg.jpg");
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    flex-direction: column;
+
+} 
+#intro div.small{
+    font-size: 26px;
+    padding-bottom: 40px;
+}
+#sponsor   {
+    height: 300px;
+    background-color: aquamarine;
+}
+.card{
+    
+    border: 2px solid black;
+    display: inline-block;
+    margin: 70px 70px;
+    width: 23%;
+    height: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.card-img{
+    height: 100px;
+    margin: 2px 30px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding:-4px 23px;
+    
+}
+
+.card-content p{
+    font-size: 18px;
+
+}
+#hellow{
+    height: 36px;
+    max-width: 240px;
+    /* margin: auto; */
+    margin-top: 45px;
+    padding: -24px 41px;
+    margin: 45px auto;
+}
+
+#helow img{
+    height: 80px;
+    margin: 22px;
+}
+#missionsponsor   {
+    height: 300px;
+    background-color: rgb(229, 231, 225);
+    padding-top: 20px;
+    
+    display: block;
+    margin: auto;
+    width: 101%;
+}
+    
+
+#missionsponsor h3{
+    color: rgb(24, 18, 18);
+    /* border: 2px solid black; */
+    
+    display: flex;
+    justify-content: center;
+    background-color: #8a2be23b;
+}
+#sponsor h3{
+    color: rgb(24, 18, 18);
+    /* border: 2px solid black; */
+    
+    display: flex;
+    justify-content: center;
+    background-color: #8a2be23b;
+
+}
+
+#footer {
+    height: 60px;
+    background-color: rgb(25, 26, 23);
+color: azure;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}

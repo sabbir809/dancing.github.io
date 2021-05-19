@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    padding: 21px;
+}
+.sabbir{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* width: 50%; */
+    align-items: center;
+}
+
+
+.hellow{
+width: 50%;
+
+margin: 13px;
+padding: 4px;
+border: 2px solid #b7f7ff;
+/* color: #266596; */
+border-radius: 12px;
+}
+.btn{
+    padding: 12px;
+    border-radius: 12px;
+    border: 2px solid #cff4f9;
+    cursor: pointer;
+    font-size: 12px;
+    background: #7bd3fb;
+    
+
+}
+.container{
+    min-height: 100vh;
+}
